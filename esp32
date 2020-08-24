@@ -1,13 +1,13 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 int sensorPin = 36;
-const char* ssid = "home";
-const char* password = "safety2015";
+const char* ssid = "ssid-ไวไฟ(ชื่อไวไฟ)";
+const char* password = "รหัสไวไฟ";
 const char* mqtt_server = "broker.netpie.io";
 const int mqtt_port = 1883;
-const char* mqtt_Client = "83fe7957-9c47-44ad-abd9-e07fcaa226c4";
-const char* mqtt_username = "NaLgc76Fta2JHFSyjLsKFRvc8tdPMeLX";
-const char* mqtt_password = "q9V(g)B6UBKSBNs0FaOvkkkvbn8Uyq01";
+const char* mqtt_Client = "mqtt_Client";
+const char* mqtt_username = "mqtt_username";
+const char* mqtt_password = "mqtt_password";
     
 WiFiClient espClient;
 PubSubClient client(espClient);
